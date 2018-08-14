@@ -4,7 +4,7 @@
 
 # [Install Mac](http://dev.topheman.com/install-nvm-with-homebrew-to-use-multiple-versions-of-node-and-iojs-easily/)
 
-Install nvm with [Homebrew](./Homebrew.md):
+Install nvm with [Homebrew](../Mac/Homebrew.md):
 
     brew update
     brew install nvm

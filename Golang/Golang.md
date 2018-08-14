@@ -5,7 +5,7 @@ Go is an open source programming language that makes it easy to build simple, re
 More info: https://golang.org/
 # [Install Go Mac](http://sourabhbajaj.com/mac-setup/Go/README.html)
 
-Install Golang with [Homebrew](../Homebrew.md):
+Install Golang with [Homebrew](../Mac/Homebrew.md):
     
     brew install golang
 
