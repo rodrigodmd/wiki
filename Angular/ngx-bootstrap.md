@@ -32,3 +32,43 @@ export class AppComponent {
   }
 }
 ```
+
+# Let's get to work
+
+Now you can start using the components:
+
+- https://valor-software.com/ngx-bootstrap/#/accordion
+- https://getbootstrap.com/docs/4.1/components/alerts/
+
+To use a module, first you need to add it in the app module.
+For example to use the dropdown, open src/app/app.module.ts and add:
+
+```typescript
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+...
+
+@NgModule({
+   ...
+   imports: [BsDropdownModule.forRoot(), ... ],
+    ...
+})
+```
+
+Now you can work in the HTML.
+open src/app/app.component.html and add:
+```typescript 
+<div class="btn-group" dropdown>
+  <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+    Button dropdown <span class="caret"></span>
+  </button>
+  <ul *dropdownMenu class="dropdown-menu" role="menu">
+    <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
+    <li class="divider dropdown-divider"></li>
+    <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+    </li>
+  </ul>
+</div>
+```
+Run the app in demo mode and ensure the dropdown button functions correctly.

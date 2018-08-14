@@ -12,10 +12,12 @@ To install the Angular CLI:
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. You can also use yarn or npm:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. You can use any of the following commands to start the server:
 
     ng serve
+        or
     yarn start
+        or
     npm start
 
 ## Code scaffolding
